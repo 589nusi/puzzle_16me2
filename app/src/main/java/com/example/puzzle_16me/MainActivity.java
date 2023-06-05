@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         for (i = 0; i < 16; i++) {
             if (firstboard[i] == 0) {
                 numtext[i].setText("");
-                numtext[i].setBackgroundColor(Color.TRANSPARENT);
+                //numtext[i].setBackgroundColor(Color.TRANSPARENT);
             } else {
                 numtext[i].setText(String.valueOf(firstboard[i]));
             }
